@@ -3,8 +3,9 @@ kind: Service
 metadata:
   name: clusterip-service
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: test
   ports:
     - port: 8080
+      nodePort: 32005
