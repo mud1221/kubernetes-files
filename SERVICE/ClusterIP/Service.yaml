@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: clusterip-service
 spec:
-  type: Clusterip
+  type: ClusterIP
   selector:
     app: test
   ports:
