@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod 
 metadata:
-  name: svc-pod-1
+  name: svcpod
   labels:
     app: dummy
 spec:
   containers:
-    - name: java-container
+    - name: javacontainer
       image: mudasir102/java-repo:my-java
       ports:
         - containerPort: 8080
