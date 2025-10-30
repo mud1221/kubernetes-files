@@ -6,8 +6,8 @@ metadata:
     app: dummy
 spec:
   containers:
-    - name: my-container-1
-      image: java-repo:my-java
+    - name: java-container
+      image: mudasir102/java-repo:my-java
       ports:
         - containerPort: 8080
           protocol: TCP
