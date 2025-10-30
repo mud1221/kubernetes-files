@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod 
 metadata:
-  name: svcpod
+  name: lbpod
   labels:
-    app: java-app
+    app: python-app
 spec:
   containers:
-    - name: javacontainer
-      image: mudasir102/java-repo:my-java
+    - name: pythoncontainer
+      image: mudasir102/python-repo:my-python
       ports:
-        - containerPort: 8080
+        - containerPort: 5001
           protocol: TCP
