@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: svcpod
   labels:
-    app: dummy
+    app: java-app
 spec:
   containers:
     - name: javacontainer
