@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: lbpod
   labels:
-    app: python-app
+    app: myapp
 spec:
   containers:
     - name: pythoncontainer
