@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: en-svc
+  namespace: prod
+spec:
+  type: ExternalName
+  externalName: www.google.com
+  selector: 
+    app: test-2
