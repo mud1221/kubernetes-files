@@ -6,7 +6,7 @@ metadata:
     app: dummypod
 spec:
   containers:
-    - name: my cont1
+    - name: my-container
       image: nginx:1.29    
       ports:
         - containerPort: 80
