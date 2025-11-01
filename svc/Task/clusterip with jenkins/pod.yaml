@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod 
 metadata:
-  name: svc-pod2
+  name: service-pod
   labels:
     app: test
 spec:
   containers:
-    - name: test-con-2
-      image: nginx:1.29
+    - name: test-con-1
+      image: jenkins/jenkins:jdk21
       ports:
-        - containerPort: 80
+        - containerPort: 8080
           protocol: TCP

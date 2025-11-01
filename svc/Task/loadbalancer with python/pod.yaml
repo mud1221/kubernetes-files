@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod 
+metadata:
+  name: lbpod
+  labels:
+    app: myapp
+spec:
+  containers:
+    - name: pythoncontainer
+      image: mudasir102/python-repo:my-python
+      ports:
+        - containerPort: 5001
+          protocol: TCP

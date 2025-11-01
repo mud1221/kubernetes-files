@@ -3,11 +3,11 @@ kind: Pod
 metadata:
   name: lbpod
   labels:
-    app: myapp
+    app: dummypod
 spec:
   containers:
-    - name: pythoncontainer
-      image: mudasir102/python-repo:my-python
+    - name: my cont1
+      image: nginx:1.29    
       ports:
-        - containerPort: 5001
+        - containerPort: 80
           protocol: TCP
