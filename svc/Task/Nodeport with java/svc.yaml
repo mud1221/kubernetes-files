@@ -8,4 +8,4 @@ spec:
     app: java-app
   ports:
     - port: 8080
-      nodePort: 32009
+      nodePort: 32011
