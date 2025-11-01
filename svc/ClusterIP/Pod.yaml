@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod 
 metadata:
-  name: svc-pod1
+  name: cip-pod
   labels:
     app: test
 spec:
