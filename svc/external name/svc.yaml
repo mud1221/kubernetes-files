@@ -6,5 +6,4 @@ metadata:
 spec:
   type: ExternalName
   externalName: www.google.com
-  selector: 
-    app: test-2
+  
